@@ -1,26 +1,150 @@
+
 <!DOCTYPE html>
 <html lang="uz">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Firstapp</title>
+    <title>MarketUz — Online do'kon</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Firstapp</h1>
-        <nav>
-            <a href="#">Bosh sahifa</a>
-            <a href="#">Biz haqimizda</a>
-            <a href="#">Aloqa</a>
-        </nav>
-    </header>
+<header>
+    <div class="top">
+        <div class="logo">Market<span>Uz</span></div>
 
-    <main>
-        <h2>Xush kelibsiz!</h2>
-        <p>Bu mening birinchi web loyiham.</p>
-    </main>
+        <div class="search">
+            <input type="text" placeholder="Mahsulotlarni qidiring...">
+            <button>Qidirish</button>
+        </div>
+
+        <div class="actions">
+            <button>👤 Profil</button>
+            <button>❤️ Sevimlilar</button>
+            <button>🛒 Savatcha</button>
+        </div>
+    </div>
+
+    <nav>
+        <a href="#">Bosh sahifa</a>
+        <a href="#categories">Kategoriyalar</a>
+        <a href="#products">Mahsulotlar</a>
+        <a href="#">Chegirmalar</a>
+        <a href="#">Aksiyalar</a>
+    </nav>
+</header>
+
+<main class="container">
+
+    <section class="banner">
+        <div class="banner-content">
+            <span>MARKETUZ AKSIYASI</span>
+            <h1>Eng yaxshi mahsulotlar bir joyda!</h1>
+            <p>Sevimli mahsulotlaringizni qulay narxlarda xarid qiling.</p>
+            <a href="#products" class="banner-btn">Xarid qilish →</a>
+        </div>
+        <div class="banner-image">🛍️</div>
+    </section>
+
+    <section id="categories">
+        <h2 class="section-title">Kategoriyalar</h2>
+
+        <div class="categories">
+            <div class="category">
+                <div>📱</div>
+                <p>Elektronika</p>
+            </div>
+
+            <div class="category">
+                <div>👕</div>
+                <p>Kiyimlar</p>
+            </div>
+
+            <div class="category">
+                <div>🏠</div>
+                <p>Uy uchun</p>
+            </div>
+
+            <div class="category">
+                <div>⚽</div>
+                <p>Sport</p>
+            </div>
+
+            <div class="category">
+                <div>📚</div>
+                <p>Kitoblar</p>
+            </div>
+
+            <div class="category">
+                <div>⌚</div>
+                <p>Aksessuarlar</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="products">
+        <h2 class="section-title">🔥 Mashhur mahsulotlar</h2>
+
+        <div class="products">
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500" alt="Smartfon">
+                <div class="product-info">
+                    <h3>Samsung Galaxy Smartfon</h3>
+                    <p class="rating">⭐ 4.8 | 120 ta baho</p>
+                    <p class="old-price">3 500 000 so'm</p>
+                    <h3 class="price">3 200 000 so'm</h3>
+                    <span class="installment">Bo'lib to'lash</span>
+                    <button class="add-btn">Savatga qo'shish</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500" alt="Quloqchin">
+                <div class="product-info">
+                    <h3>Simsiz quloqchin</h3>
+                    <p class="rating">⭐ 4.9 | 85 ta baho</p>
+                    <p class="old-price">250 000 so'm</p>
+                    <h3 class="price">180 000 so'm</h3>
+                    <span class="installment">Bo'lib to'lash</span>
+                    <button class="add-btn">Savatga qo'shish</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500" alt="Krossovka">
+                <div class="product-info">
+                    <h3>Sport oyoq kiyimi</h3>
+                    <p class="rating">⭐ 4.7 | 95 ta baho</p>
+                    <p class="old-price">520 000 so'm</p>
+                    <h3 class="price">450 000 so'm</h3>
+                    <span class="installment">Bo'lib to'lash</span>
+                    <button class="add-btn">Savatga qo'shish</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500" alt="Soat">
+                <div class="product-info">
+                    <h3>Zamonaviy qo'l soati</h3>
+                    <p class="rating">⭐ 4.8 | 75 ta baho</p>
+                    <p class="old-price">350 000 so'm</p>
+                    <h3 class="price">280 000 so'm</h3>
+                    <span class="installment">Bo'lib to'lash</span>
+                    <button class="add-btn">Savatga qo'shish</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <h2>MarketUz</h2>
+    <p>Sifatli mahsulotlar — qulay narxlarda!</p>
+    <p>© 2026 MarketUz. Barcha huquqlar himoyalangan.</p>
+</footer>
 
 </body>
 </html>
